@@ -20,4 +20,5 @@
         :precondition (and (at ?b ?from) (not (empty-handed)))
         :effect (and (at ?b ?to) (not (at ?b ?from)))
     )
+
 )
