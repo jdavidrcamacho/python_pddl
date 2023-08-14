@@ -8,6 +8,6 @@ command = [fast_downward_executable, domain_file, problem_file, "--search", "laz
 result = subprocess.run(command, check=True, text=True)
 
 
-#cmd = [fast_downward_executable, "--search", "lama-first", domain_file, problem_file]
-#retcode = subprocess.call(cmd, shell=True, check=True, capture_output=True, text=True)
+#cmd = [fast_downward_executable, domain_file, problem_file, "--search", "lama-first"]
+#retcode = subprocess.call(cmd,  check=True, capture_output=True, text=True)
 #print(retcode)
