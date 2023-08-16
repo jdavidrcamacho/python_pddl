@@ -1,0 +1,11 @@
+repos:
+-   repo: git@github.com:jdavidrcamacho/python_pddl.git
+    rev: v0.1
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
+    -   id: black
