@@ -1,4 +1,3 @@
-(pickup blocka location1)
-(move blockb location2 location1)
-(putdown blocka location2)
-; cost = 3 (unit cost)
+(move obj2 roomb rooma)
+(move obj1 rooma roomb)
+; cost = 2 (unit cost)
