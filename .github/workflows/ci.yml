@@ -33,7 +33,7 @@ jobs:
 
     - name: Run Tests
       run: |
-        python /examples/test*.py
+        python ./examples/test*.py
 
     - name: Check Test Results and Fail Workflow
       run: |
