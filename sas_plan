@@ -1,0 +1,4 @@
+(pickup blocka location1)
+(move blockb location2 location1)
+(putdown blocka location2)
+; cost = 3 (unit cost)
