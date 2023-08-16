@@ -36,10 +36,3 @@ jobs:
       run: |
         python ./examples/test*.py
 
-    - name: Check Test Results and Fail Workflow
-      run: |
-        # Check test results
-        if [ tests_failed ]; then
-          echo "Tests failed."
-          exit 1  # Fail the workflow
-        fi
