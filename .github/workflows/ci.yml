@@ -33,7 +33,7 @@ jobs:
 
     - name: Run Tests
       run: |
-        python ~/GitHub/python_pddl/examples/test*.py
+        python ~/python_pddl/examples/test*.py
 
     - name: Check Test Results and Fail Workflow
       run: |
