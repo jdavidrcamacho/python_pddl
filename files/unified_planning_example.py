@@ -16,14 +16,13 @@ problem_filename =  'prob_problem.pddl'
 problem = reader.parse_problem(domain_filename, problem_filename)
 
 
-with OneshotPlanner() as planner:
-    result = planner.solve(problem)
-    if result.status == up.engines.PlanGenerationResultStatus.SOLVED_SATISFICING:
-        print("Plan returned: %s" % result.plan)
-    else:
-        print("No plan found.")
+# with OneshotPlanner() as planner:
+#     result = planner.solve(problem)
+#     if result.status == up.engines.PlanGenerationResultStatus.SOLVED_SATISFICING:
+#         print("Plan returned: %s" % result.plan)
+#     else:
+#         print("No plan found.")
 
-# print(planner)
 
 
 plan = result.plan

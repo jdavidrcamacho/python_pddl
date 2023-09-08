@@ -1,7 +1,4 @@
-
-import pddlpy
-
-#from pddlpy import Domain, Problem, create_type
+from pddlpy import Domain, Problem, create_type
 
 # Define types
 room = create_type("room")
